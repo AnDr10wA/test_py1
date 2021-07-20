@@ -2,7 +2,7 @@
 c = [1, 2, 3, 4, 5]
 b = []
 for i in c[1:]:
-    b.append(i)
+    b = b.append(i)
 b.append(c[0])
 print(b)
 c = [1, 2, 3, 4, 5]
